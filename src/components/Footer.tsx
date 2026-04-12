@@ -56,9 +56,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-[#6F4E37] text-center">
+        <div className="mt-8 pt-8 border-t border-[#6F4E37] text-center flex flex-col items-center gap-2">
           <p className="text-[#D7C7A1] text-sm">
             {t('footer.copyright')}
+          </p>
+          <p className="text-[#D7C7A1] text-sm">
+            Developed by <a href="https://www.visiontechx.com" target="_blank" rel="noopener noreferrer" className="text-[#F5EFE6] hover:underline font-medium transition-colors">Vision TechX</a>
           </p>
         </div>
       </div>
